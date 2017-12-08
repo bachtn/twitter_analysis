@@ -1,0 +1,31 @@
+* Word:
+
+** NRC Word-Emotion Association Lexicon (EmoLex)
+- emo_lex.txt
+> list of words with the sentiment intensity for each word
+Eg:
+
+word	anger	anticipation	disgust	fear	joy	negative	positive	sadness	surprise	trust
+TRUE	0.0	0.0	0.0	0.0	0.328	0.0	0.0	0.0	0.0	0.0
+aaaaaaah	0.0	0.0	0.0	0.344	0.0	0.0	0.0	0.0	0.0	0.0
+
+- word_affect_intensity.txt
+> List of words with a specific sentiment intensity for each.
+Note: each word have one sentiment intensity and not an intensity for each
+sentiment like in the NRC dataset
+
+Eg:
+
+outraged	0.964	anger
+shooter	0.722	fear
+hopeless	0.688	sadness
+happynewyear	0.656	joy
+
+** Opinion Lexicon English (OLE)
+https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
+
+- negative_words.txt
+
+- positive_words.txt
+
+* Emoji:
