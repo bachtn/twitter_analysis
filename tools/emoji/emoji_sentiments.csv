@@ -1,4 +1,4 @@
-#Emoji,Unicode codepoint,Occurrences,Position,Negative,Neutral,Positive,Unicode name,Unicode block
+emoji,unicode codepoint,occurrences,position,negative,neutral,positive,unicode name,unicode block
 😂,0x1f602,14622,0.805100583,3614,4163,6845,FACE WITH TEARS OF JOY,Emoticons
 ❤,0x2764,8050,0.746943086,355,1334,6361,HEAVY BLACK HEART,Dingbats
 ♥,0x2665,7144,0.753806008,252,1942,4950,BLACK HEART SUIT,Miscellaneous Symbols
