@@ -1,0 +1,19 @@
+In order to train the model, one must execute the notebook 'Auto encoder.ipynb'
+
+This notebook expects to have glove embedding 200dimensions in a subfolder
+'glove/'.
+
+The notebook will generate a file checkpoint.h5 in the '/tmp/' folder. This file
+will be used for further scripts.
+
+To execute predict.py the usage is:
+python3 predict.py 'Tweet content in simple quotes' anger
+where anger is the main sentiment of the tweet.
+
+To execute the prediction on a large batch of tweets:
+python3 predict_all.py data.csv
+
+Non-standard requirements are tensorflow, keras, numpy, jupyter and pandas.
+
+The notebook offers the possibility to use tensorboard to monitor the model
+training process, the logdir is under /tmp/encoder
